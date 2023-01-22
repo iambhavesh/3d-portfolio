@@ -1,0 +1,169 @@
+
+.about-information {
+  /* position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%); */
+  width: 50%;
+  /* max-height: 90%; */
+}
+.about-page .flat-button{
+  float: left !important;
+  margin-top: 20px;
+}
+.about-page h1 {
+  color: #ffd700;
+  font-size: 56px;
+  line-height: 53px;
+  margin: 0;
+  font-family: 'Coolvetica';
+  font-weight: 400;
+  margin-bottom: 40px;
+  position: relative;
+}
+.about-page p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  max-width: fit-content;
+}
+.about-page h1:before {
+  content: '<h1>';
+  font-family: 'La Belle Aurore', cursive;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -40px;
+  left: -15px;
+  opacity: 0.6;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.about-page h1:after {
+  content: '<h1/>';
+  font-family: 'La Belle Aurore', cursive;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 20px;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+  bottom: -50px;
+  left: -30px;
+}
+.about-image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  /* top: 0;
+  padding-top: 12%;
+  margin-left: 0;
+  position: absolute;
+  right: 20%; */
+}
+.image-slider svg {
+  width: 200px;
+  height: 200px;
+}
+
+.image-slider {
+  width: 1000px;
+  animation-name: slider;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-200px);
+  }
+  45% {
+    transform: translateX(-200px);
+  }
+  50% {
+    transform: translateX(-400px);
+  }
+  70% {
+    transform: translateX(-400px);
+  }
+  75% {
+    transform: translateX(-600px);
+  }
+  95% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(-800px);
+  }
+}
+/* @keyframes slider {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  20% {
+    left: 0;
+    opacity: 1;
+  }
+  21% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    left: -200px;
+    opacity: 1;
+  }
+  45% {
+    left: -200px;
+    opacity: 1;
+  }
+  46% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+  }
+  50% {
+    left: -400px;
+    opacity: 1;
+  }
+  70% {
+    left: -400px;
+    opacity: 1;
+  }
+  72% {
+    opacity: 0;
+  }
+  74% {
+    opacity: 0;
+  }
+  75% {
+    left: -600px;
+    opacity: 1;
+  }
+  95% {
+    left: -600px;
+    opacity: 1;
+  }
+  97% {
+    left: -600px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 0;
+  }
+} */
